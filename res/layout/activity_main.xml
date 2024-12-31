@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- فیلد ورودی متن برای نقشه -->
+    <EditText
+        android:id="@+id/mapInputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="نقشه را وارد کنید"
+        android:inputType="text" />
+
+    <!-- دکمه جایگذاری -->
+    <Button
+        android:id="@+id/insertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="جایگذاری"
+        android:layout_marginTop="8dp" />
+
+    <!-- دکمه تولید پوشه‌ها و فایل‌ها -->
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تولید"
+        android:layout_marginTop="16dp" />
+
+    <!-- دکمه انتخاب پوشه -->
+    <Button
+        android:id="@+id/selectFolderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="انتخاب پوشه"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
